@@ -104,13 +104,16 @@ main > p:first-child::first-letter {
 figure {
   float: right;
   width: 300px;
-  font-size: .875rem;
-  font-style: italic;
   border-top: #000 solid 3px;
   border-bottom: #000 solid 3px;
   padding: 6px 0;
   margin: 0 0 10px 10px;
   margin-right: -150px;
+}
+
+figcaption {
+  font-size: .875rem;
+  font-style: italic;
 }
 
 blockquote {
